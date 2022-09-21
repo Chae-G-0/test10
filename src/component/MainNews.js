@@ -80,7 +80,7 @@ const MainNews = () => {
             <div className="inner">
                 {NEWS.map((news) => {
                     return (
-                        <figure>
+                        <figure key={news.id}>
                             <div className="box">
                                 <img src={process.env.PUBLIC_URL + news.src} alt={news.title} />
                                 <strong>{news.cate}</strong>

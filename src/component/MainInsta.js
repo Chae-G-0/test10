@@ -35,7 +35,7 @@ const MainInsta = () => {
             <Slider {...setting}>
                 {SNS.map((sns, idx) => {
                     return (
-                        <figure>
+                        <figure key={sns.id}>
                             <img src={process.env.PUBLIC_URL + sns.src} alt="" />
                             <a href="#!" title="SNU SNS 바로가기">
                                 <i className="xi-instagram"></i>

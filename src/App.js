@@ -5,6 +5,7 @@ import MainNews from "./component/MainNews";
 import MainInsta from "./component/MainInsta";
 import Footer from "./component/Footer";
 import MainEnter from "./component/MainEnter";
+import MainVideo from "./component/MainVideo";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <MainVisual />
             <MainEnter/>
             <MainNews />
+            <MainVideo/>
             <MainInsta />
             <Footer />
         </>
