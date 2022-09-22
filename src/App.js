@@ -20,7 +20,7 @@ function App() {
             <MainInsta />
             <Footer />
             <Totop />
-            <Popup/>
+            <Popup />
         </>
     );
 }

@@ -13,7 +13,7 @@ const MainVisual = () => {
         autoplay: 1,
     };
     return (
-        <div className="MainVisual">
+        <section className="MainVisual">
             <Slider {...setting} ref={mainSlide}>
                 {SLIDE.map((slide, idx) => {
                     return <figure key={slide.id} className={"item0" + slide.id + (idx === IDX ? " on" : "")}></figure>;
@@ -22,7 +22,7 @@ const MainVisual = () => {
             <div className="slogan">
                 <img src={process.env.PUBLIC_URL + "/assets/symbol.png"} alt="" />
             </div>
-        </div>
+        </section>
     );
 };
 

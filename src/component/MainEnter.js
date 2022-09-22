@@ -64,7 +64,7 @@ const NOTICE = [
 ];
 
 const ENTER = [
-    { id: 1, title: "수시모집 바로가기" },
+    { id: 1, title: "수시모집 바로가기" , link: "https://admission.snu.ac.kr/index.html"},
     { id: 2, title: "정시모집 바로가기" },
     { id: 3, title: "대학원 바로가기" },
     { id: 4, title: "글로벌 인재전형 바로가기" },
@@ -95,7 +95,7 @@ const MainEnter = () => {
                         return (
                             <figure key={enter.id}>
                                 <div className="right">
-                                    <a href="#!">
+                                    <a href={enter.link} target="blank">
                                         {enter.title}
                                         <i className="xi-angle-right-thin"></i>
                                     </a>
