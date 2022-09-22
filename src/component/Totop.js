@@ -19,6 +19,7 @@ const Btn = styled.div`
     &.on {
         visibility: visible;
         opacity: 1;
+        border: 1px solid #fff;
     }
 `;
 

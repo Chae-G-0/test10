@@ -16,8 +16,8 @@ function App() {
             <MainVisual />
             <MainEnter />
             <MainNews />
-            <MainVideo />
             <MainInsta />
+            <MainVideo />
             <Footer />
             <Totop />
             <Popup />
