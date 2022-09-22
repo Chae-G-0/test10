@@ -6,17 +6,21 @@ import MainInsta from "./component/MainInsta";
 import Footer from "./component/Footer";
 import MainEnter from "./component/MainEnter";
 import MainVideo from "./component/MainVideo";
+import Totop from "./component/Totop";
+import Popup from "./component/Popup";
 
 function App() {
     return (
         <>
             <Header />
             <MainVisual />
-            <MainEnter/>
+            <MainEnter />
             <MainNews />
-            <MainVideo/>
+            <MainVideo />
             <MainInsta />
             <Footer />
+            <Totop />
+            <Popup/>
         </>
     );
 }
