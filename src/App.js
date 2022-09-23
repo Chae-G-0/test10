@@ -8,6 +8,7 @@ import MainEnter from "./component/MainEnter";
 import MainVideo from "./component/MainVideo";
 import Totop from "./component/Totop";
 import Popup from "./component/Popup";
+import Fimg from "./component/Fimg";
 
 function App() {
     return (
@@ -16,8 +17,9 @@ function App() {
             <MainVisual />
             <MainEnter />
             <MainNews />
-            <MainInsta />
             <MainVideo />
+            <MainInsta />
+            <Fimg/>
             <Footer />
             <Totop />
             <Popup />
