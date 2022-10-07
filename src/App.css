@@ -421,13 +421,13 @@ select {
     color: #fff;
     background-image: url(../public/assets/arrow.png);
     background-repeat: no-repeat;
-    background-position: 95% 45%;
+    background-position: 95% 40%;
 }
 
 select:focus {
     background-image: url(../public/assets/arrowup.png);
     background-repeat: no-repeat;
-    background-position: 95% 45%;
+    background-position: 95% 40%;
 }
 
 select option {
