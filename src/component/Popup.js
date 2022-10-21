@@ -59,7 +59,7 @@ const Popup = () => {
     return (
         <Pop className={(cookie.pop || TG) && "on"} ref={pop}>
             <div className="popbox">
-                <img src={process.env.PUBLIC_URL + "/assets/mainInsta08.png"} alt="" />
+                <img src={process.env.PUBLIC_URL + "/assets/popup.png"} alt="" />
                 <div className="bottom">
                     <input
                         type="checkbox"

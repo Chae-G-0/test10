@@ -363,6 +363,9 @@ h2 {
     position: relative;
 }
 
+.MainInsta figure img {
+}
+
 .MainInsta i {
     position: absolute;
     bottom: 10px;
