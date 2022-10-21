@@ -3,7 +3,7 @@
 
 ---
 
-팝업창, 다단메뉴, 검색폼, totop 버튼, marquee
+팝업창, 다단메뉴, 검색폼, totop 버튼, react fast marquee
 
 ---
 

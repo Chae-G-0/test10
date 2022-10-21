@@ -1,6 +1,4 @@
 import React from "react";
-// import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css";
 import Marquee from "react-fast-marquee";
 
 const SNS = [
@@ -17,34 +15,11 @@ const SNS = [
 ];
 
 const MainInsta = () => {
-    // const setting = {
-    //     infinite: true,
-    //     arrows: false,
-    //     autoplay: 1,
-    //     slidesToShow: 7,
-    //     speed: 2000,
-    //     autoplaySpeed: 2000,
-    //     pauseOnFocus: false,
-    //     pauseOnHover: true,
-    //     swipeToSlide: true,
-    // };
     return (
         <section className="MainInsta csc">
             <div className="inner">
                 <h2>서울대학교 소식 보러가기</h2>
             </div>
-            {/* <Slider {...setting}>
-                {SNS.map((sns, idx) => {
-                    return (
-                        <figure key={sns.id}>
-                            <img src={process.env.PUBLIC_URL + sns.src} alt="" />
-                            <a href="#!" title="SNU SNS 바로가기">
-                                <i className="xi-instagram"></i>
-                            </a>
-                        </figure>
-                    );
-                })}
-            </Slider> */}
             <Marquee gradient={false} pauseOnHover={true}>
                 {SNS.map((sns, idx) => {
                     return (

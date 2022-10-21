@@ -332,6 +332,7 @@ h2 {
 
 .MainVideo {
     position: relative;
+    background: #f5f5f5;
 }
 
 .MainVideo video {
@@ -355,7 +356,6 @@ h2 {
 } */
 
 .MainInsta {
-    background: #f5f5f5;
 }
 
 .MainInsta figure {
