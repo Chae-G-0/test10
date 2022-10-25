@@ -16,6 +16,7 @@ const Btn = styled.div`
     opacity: 0;
     cursor: pointer;
     transition: 0.5s;
+    z-index: 999;
     &.on {
         visibility: visible;
         opacity: 1;
