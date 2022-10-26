@@ -178,7 +178,7 @@ const Header = () => {
                     <div className="searchBox">
                         <form action="#!">
                             <input type="text" placeholder="검색어를 입력하세요" required />
-                            <button>
+                            <button action="#!">
                                 <i className="xi-search"></i>
                             </button>
                         </form>
@@ -187,7 +187,7 @@ const Header = () => {
                                 {
                                     WORD.map(sw => {
                                         return(
-                                            <li>
+                                            <li key={sw.id}>
                                                 <a href="#!">{sw.tit}</a>
                                             </li>
                                         )
