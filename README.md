@@ -8,12 +8,12 @@
 
 ### 기능
 
--   react hook을 이용한 상태 관리
--   react cookie와 styled-components를 이용해 만든 팝업창
--   다단메뉴
--   search form
--   top 버튼
--   react-fast-marquee를 이용한 흘러가는 이미지 구현
+-   react hook을 이용해 상태를 관리했습니다.
+-   react cookie와 styled-components를 이용해 팝업창을 제작했습니다.
+-   다단메뉴를 구현했습니다. hover하면 서브메뉴가 나타납니다.
+-   form과 input태그로 search form을 제작했습니다.
+-   gsap scrolltoplugin을 이용해 클릭시 화면 상단으로 이동하는 탑버튼을 구현했습니다.
+-   react-fast-marquee를 이용한 흘러가는 이미지 구현했습니다.
 
 ---
 
